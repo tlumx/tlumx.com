@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Blog - Tlumx official website"
+description: "This is the official Tlumx blog, here we publish posts about new releases, tips and development examples and other useful things"
+permalink: /blog/
+---
+        <div class="row section">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 class="page-title">Blog</h1>
+                {% for post in site.posts %}
+                <hr>
+                <article class="post-partial">
+                    <a href="{{ post.url }}">
+                        <h3 class="post-title">{{ post.title }}</h3>
+                        <p class="post-except">{{ post.excerpt }}</p>
+                    </a>
+                    <span class="post-meta">Posted on <time class="post-datetime">{{ post.date | date: "%b %d, %Y" }}</time></span>
+                </article>
+                {% endfor %}
+<!--                 <ul class="pager text-uppercase">
+                    <li class="previous disabled"><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Older Posts</a></li>
+                    <li class="next"><a href="#">Newer Posts <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                </ul> -->
+            </div>
+        </div>

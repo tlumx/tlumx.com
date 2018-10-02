@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Install - Tlumx official website"
+description: "How can install Tlumx framework, packages and other solutions; Tlumx available on GitHub and can be installed via Composer"
+permalink: /install/
+---
+        <div class="row section">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h1 class="page-title">Install</h1>
+                
+                <p>Tlumx framework, packages and other solutions are available on GitHub and can be installed via <a href="https://getcomposer.org/" title="Composer">Composer</a> dependency manager</p>
+
+                <p>If Composer is not already installed, you can install the Composer by following instructions on the <a href="https://getcomposer.org/" title="getcomposer.org">getcomposer.org</a>. Also, on Linux or Mac, you can download Composer and install it globally using the next commands:</p>
+<pre>curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer</pre>
+
+                <p>The easiest way to create a new Tlumx Framework project is using <a href="https://github.com/tlumx/TlumxSkeletonApplication" title="TlumxSkeletonApplication">TlumxSkeletonApplication</a> project as a base, use next command:</p>
+                <pre>$ php composer.phar create-project tlumx/skeleton-application [app-name]</pre>
+
+                <p>Where [app-name] is directory name for creation application</p>
+
+                <p>Once installed, you can run it with PHP's built-in web server:</p>
+                <pre>$ cd [app-name]; php -S localhost:8080 -t public public/index.php</pre>
+                <p>For more information, read the <a href="https://docs.tlumx.com/" title="Tlumx Documentation">documentation</a></p>
+
+            </div>
+        </div>

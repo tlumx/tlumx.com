@@ -1,0 +1,17 @@
+name: Tlumx.com
+timezone: Europe/London
+title: Tlumx
+url: https://tlumx.com
+urlBasePath:
+include: [.htaccess]
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts

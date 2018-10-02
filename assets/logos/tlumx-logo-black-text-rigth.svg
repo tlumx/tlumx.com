@@ -1,0 +1,44 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="130" width="680" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<title>Tlumx logo</title>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title>Tlumx logo</dc:title>
+<dc:creator>
+<cc:Agent>
+<dc:title>Tlumx</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:rights>
+<cc:Agent>
+<dc:title>Tlumx</dc:title>
+</cc:Agent>
+</dc:rights>
+<dc:publisher>
+<cc:Agent>
+<dc:title>Tlumx</dc:title>
+</cc:Agent>
+</dc:publisher>
+<dc:identifier>Tlumx.com</dc:identifier>
+<dc:source>Tlumx.com</dc:source>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>Tlumx logo</rdf:li>
+</rdf:Bag>
+</dc:subject>
+<dc:description>Tlumx logo</dc:description>
+<dc:date/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(-19.24528,331.63782)" fill="#000">
+<g transform="matrix(0.24528302,0,0,0.24528302,19.24528,-304.01993)">
+<path style="direction:ltr;baseline-shift:baseline;block-progression:tb;text-indent:0;color:#000000;enable-background:accumulate;text-transform:none;text-align:start;" d="M392.93-112.11c-160.27-0.2-288.8,178.55-233.28,330.21,38.03,125.03,181.86,204.06,307.44,164.8,138.76-36.05,225.39-201.51,168.91-334.87-37.9-96.879-137.72-167.2-243.07-160.14zm0.12,4.17c150.51-11.44,285.13,142.99,251.5,290.77-22.12,132.47-162.21,230.71-294.33,200.62-133.16-23.81-227.72-169.24-191.34-300.4,26.35-105.5,123.68-190.16,234.17-190.99z"/>
+<path d="M0-10.596,320,35.404,340,59.404,380-4.596,340-4.596,370-38.596,430-38.596,460,59.404,480,35.404,800-10.596,628,135.4,570,143.4,540,184.4,462,199.4,436,254.4,476,309.4,400,417.4,324,309.4,364,254.4,338,199.4,260,184.4,230,143.4,172,135.4z" fill-rule="nonzero"/>
+</g>
+<path d="M620.84-227.83,651.33-268.9,619.85-306.64,633.8-306.64,660.58-276.75,685.74-306.64,698.62-306.64,669.39-269.49,699.25-227.83,684.81-227.83,659.99-259.68,634.9-227.83,620.84-227.83m-104.84,0,0-78.81,14.46,0,32.12,69,31.13-69,12.76,0,0,78.81-11.76,0,0-65.96-29.45,65.96-6.52,0-30.97-67.09,0,67.09-11.77,0m-13.93-78.81,0.37,73.58c0.01,3.24-4.2,6.26-7.44,6.27l-67,0.15c-3.13,0.01-7.21-2.83-7.24-5.96l-0.6-74.04h13.5l0.79,71.17,53.82,0.48,0.3-71.65m-151.84,78.81,0-78.81,13.49,0,0,69.51,57.19,0,0,9.3-70.68,0m-69.04,0,0-71.04-42.8,0,0-7.77,99.21,0,0,7.77-42.91,0,0,71.04"/>
+</g>
+</svg>

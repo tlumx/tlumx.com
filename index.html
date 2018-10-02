@@ -1,1 +1,62 @@
-tlumx.com
+---
+layout: default
+title: "Home - Tlumx official website"
+description: "Tlumx is a powerful PHP framework, a set of PHP packages and solutions for quickly creation all kinds of Web applications and services"
+permalink: /
+---
+    <div class="container">
+        <div class="row section">
+            <div class="col-md-3">
+                <div class="well well-lg">Provides high performance</div>
+            </div>
+            <div class="col-md-3">
+                <div class="well well-lg">Following <a href="https://www.php-fig.org/">PHP-FIG</a> standards</div>
+            </div>
+            <div class="col-md-3">
+                <div class="well well-lg">FREE and open-source licensed</div>
+            </div>
+            <div class="col-md-3">
+                <div class="well well-lg">Available project on <a href="https://github.com/tlumx">Github</a></div>
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 class="divider"><span>Why Tlumx?</span></h2>
+                <ul>
+                    <li><b>Performance</b> - Tlumx framework is very fast and outperforms most of its competitors</li>
+                    <li><b>Flexible and Extensible</b> - allows you to easily use third-party packages or expand existing</li>
+                    <li><b>Secure</b> - helps you write secure code</li>
+                    <li><b>Engineered with best practice in mind</b> - Tlumx framework use MVC and Middleware architecture, supports dependency injection, event manager, fast HTTP router and many other</li>
+                    <li><b>Standardization</b> - following PHP-FIG standards</li>
+                    <li><b>Easy to use</b> - which will allow beginners to start working with it very quickly</li>
+                    <li><b>Small size</b> - packages contain all the necessary functionality with a small size</li>
+                    <li><b>Available on GitHub</b> - Tlumx framework, packages and other solutions are available on GitHub and can be installed via Composer dependency manager</li>
+                    <li><b>MIT license</b> - FREE and open-source licensed</li>
+                    <li><b>Suitable for writing applications of any complexity</b></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 class="divider"><span>Latest News</span></h2>
+                {% assign notIsFirst = false %}
+                {% for post in site.posts limit:2 %}
+                {% if notIsFirst %}<hr>{% endif %}
+                <article class="post-partial">
+                    {% assign notIsFirst = true %}
+                    <a href="{{ post.url }}">
+                        <h3 class="post-title">{{ post.title }}</h3>
+                        <p class="post-except">{{ post.excerpt }}</p>
+                    </a>
+                    <span class="post-meta">Posted on <time class="post-datetime">{{ post.date | date: "%b %d, %Y" }}</time></span>
+                </article>
+                {% endfor %}
+                
+                <p class="text-center">
+                    <a class="btn btn-black more-btn" href="/blog/">Older News</a>
+                </p>
+
+            </div>
+        </div>
